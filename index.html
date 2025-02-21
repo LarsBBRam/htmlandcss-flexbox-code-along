@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox code-along</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">FLEKSBOKS</div>
+        <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="omoss.html">Om oss</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="headertekst">
+          <h1>Fleksboks kræsjkurs</h1>
+          <p>
+            Denne egenskapen går i Container div/elementet. Vi kan tilegne det
+            til flex-direction:row/column. Row gir horisontale elementer på
+            siden, og column gir vertikale.
+          </p>
+        </div>
+        <img
+          src="./assets/images/mario-alvarez-valley-unsplash.jpg"
+          alt="a gorgeous valley"
+        />
+      </div>
+    </header>
+    <section class="boxes">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-rocket"></i>
+          <h2>Justering og plass</h2>
+          <p>
+            Vi bruker flexbox til å wrappe og nowrappe elementer. Det gjør at
+            tekst går videre til neste linje når nettleserenvinduet minskes.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Plustering og Jazz</h2>
+          <p>Heller enn at det fortsetter videre bortover.</p>
+        </div>
+        <div class="box">
+          <h2>Vurdering og dass</h2>
+          <p>
+            Snorem snipsum og andre buksevester. Her kommer jeg ikke på mer
+            morsom/kreativ tekst å skrive, så da bare gjør jeg litt rabling.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
