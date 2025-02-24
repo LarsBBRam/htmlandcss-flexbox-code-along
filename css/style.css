@@ -98,3 +98,27 @@ header .container {
   padding: 15px 20px;
   box-shadow: 0 3px 5px #333;
 }
+
+@media (max-width: 652px) {
+  .header .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxes .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .boxes .box {
+    margin: 8px;
+  }
+}
+@media (max-width: 226px) {
+  .boxes .container {
+    justify-content: space-around;
+  }
+
+  .boxes .box {
+    margin: 3px;
+    padding: 10px 15px;
+  }
+}
